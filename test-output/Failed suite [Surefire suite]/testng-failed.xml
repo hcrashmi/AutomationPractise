@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Failed suite [Surefire suite]]">
+  <test name="Surefire test">
+    <classes>
+      <class name="scripts.LoginTest"/>
+    </classes>
+  </test> <!-- Surefire test -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="scripts.LoginTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="loginToApp"/>
+          <include name="end"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- scripts.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+  <test name="Surefire test(failed)">
+    <classes>
+      <class name="scripts.LoginTest">
+        <methods>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="preCondition"/>
+          <include name="postCondition"/>
+          <include name="loginToApp"/>
+          <include name="end"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- scripts.LoginTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Failed suite [Surefire suite]] -->

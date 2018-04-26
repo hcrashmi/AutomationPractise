@@ -1,0 +1,7 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 1, Errors: 0, Skipped: 10, Time elapsed: 1.015 s <<< FAILURE! - in TestSuite
+classTest(scripts.LoginTest)  Time elapsed: 0.86 s  <<< FAILURE!
+java.lang.IllegalStateException: The driver is not executable: /home/tyss/Desktop/demoExtentrepo/./src/main/resources/driver/geckodriver.exe
+
